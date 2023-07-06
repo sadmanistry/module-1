@@ -25,3 +25,36 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+.banner{
+    background-image: url(/image/banner.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner-text{
+    color: white;
+    padding: 200px 100px;
+    
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.para{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    background-color: hwb(216 60% 29%);
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
