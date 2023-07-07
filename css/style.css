@@ -27,7 +27,7 @@
 }
 
 .banner{
-    background-image: url(/image/banner.png);
+    background-image: url(../image/banner.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@
 /** contact section **/
 
 .contact {
-    background-image: url(/image/contact.png);
+    background-image: url(../image/contact.png);
     height: 100vh;
     padding: 90px;
 
