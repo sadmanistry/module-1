@@ -51,10 +51,89 @@
 }
 
 .btn{
-    background-color: hwb(216 60% 29%);
+    background-color: hwb(216 29% 13%);
     font-size: 15px;
     padding: 12px;
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: #888888;
+    transition: ease-in all 0.5s;
+}
+
+
+/** contact section **/
+
+.contact {
+    background-image: url(/image/contact.png);
+    height: 100vh;
+    padding: 90px;
+
+}
+.contact-text{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+    
+
+}
+
+.contact-form{
+    border: #000000;
+}
+
+.contactus {
+    border: #796f6f solid 2px;
+    padding: 0 15px;
+    margin-bottom: 25px;
+    width: 50%;
+    height: 51px;
+    background: none ;
+    color: #181010;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.textarea {
+    border: #796f6f solid 2px;
+    margin-bottom: 25px;
+    width: 50%;
+    background: none;
+    color: #140e0e;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 57px 15px 0 15px;
+    border-radius: 0;
+    height: 70px;
+}
+
+.send_btn {
+    font-size: 17px;
+    transition: ease-in all 0.5s;
+    background-color: #464646c7;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 25px 0px;
+    max-width: 252px;
+    width: 100%;
+    display: block;
+    margin-top: 10px !important;
+    font-weight: bold;
+}
+
+.send_btn:hover {
+    background-color: #aca7a7;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+#request *::placeholder {
+    color: rgb(61, 59, 59);
+    opacity: 1;
 }
